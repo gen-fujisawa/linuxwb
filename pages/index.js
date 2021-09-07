@@ -1,8 +1,19 @@
 import Head from "next/head";
 import Image from "next/image";
+import prisma from "../common/prisma";
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export async function getServerSideProps() {
+  return {
+    props: {
+      a: await prisma.user.create({ data: { name: "test" } }),
+      b: await prisma.user.findMany(),
+    },
+  };
+}
+
+export default function Home({ a, b }) {
+  console.log({ a, b });
   return (
     <div className={styles.container}>
       <Head>
@@ -12,6 +23,8 @@ export default function Home() {
         <style>{`body { display: block !important }`}</style>
       </Head>
 
+      <div>{JSON.stringify(a)}</div>
+      <div>{JSON.stringify(b)}</div>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
