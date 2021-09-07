@@ -3,7 +3,7 @@
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = "postgres://whiteboard:toro311@wc@localhost:5432/whiteboard?schema=public"
 }
 
 generator client {
