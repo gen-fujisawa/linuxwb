@@ -1,0 +1,89 @@
+
+> whiteboard@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from /home/whiteboard/nextjs-apps/whiteboard/.env
+info  - Using webpack 5. Reason: Enabled by default https://nextjs.org/docs/messages/webpack5
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+wait  - compiling...
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+wait  - compiling...
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+wait  - compiling...
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+
+> whiteboard@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from /home/whiteboard/nextjs-apps/whiteboard/.env
+info  - Using webpack 5. Reason: Enabled by default https://nextjs.org/docs/messages/webpack5
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+wait  - compiling...
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+wait  - compiling...
+event - compiled successfully
+
+> Found a change in next.config.js. Restart the server to see the changes in effect.
+wait  - compiling...
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+wait  - compiling...
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+wait  - compiling...
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+
+> whiteboard@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from /home/whiteboard/nextjs-apps/whiteboard/.env
+info  - Using webpack 5. Reason: Enabled by default https://nextjs.org/docs/messages/webpack5
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+wait  - compiling...
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+wait  - compiling...
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+wait  - compiling...
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+wait  - compiling...
+event - compiled successfully
